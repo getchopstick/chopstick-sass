@@ -1,0 +1,69 @@
+/*
+ *  Chopstick index
+ *  ---
+ *  Chopstick is a framework based on the [ITCSS](http://itcss.io/)
+ *  architecture and a series of principles. It creates a structure
+ *  to easily set-up and build bespoke web projects.
+ *  ---
+ *
+ *  Settings: contains global variables and config switches
+ *  Tools: contains default mixins and functions
+ *  Generic: contains ground-zero styles (Normalize.css, resets, box-sizing)
+ *  Elements: contains unclassed HTML elements (type selectors)
+ *  Objects: contains cosmetic-free design patterns
+ *  Components: contains designed components, chunks of UI
+ *  Plugins: contains third-party plugin styles
+ *  Utilities: contains helpers and overrides
+ */
+
+@charset "utf-8";
+
+// Settings
+@import 'settings.colors';
+@import 'settings.global';
+
+// Tools
+@import '../vendor/chopstick-tools/tools.functions';
+@import '../vendor/chopstick-tools/tools.mixins';
+@import '../vendor/chopstick-tools/tools.spacing';
+@import '../vendor/chopstick-tools/tools.typography';
+
+/* Generic */
+@import '../vendor/chopstick-generic/generic.normalize';
+@import '../vendor/chopstick-generic/generic.reset';
+@import '../vendor/chopstick-generic/generic.box-sizing';
+
+/* Elements */
+@import '../vendor/chopstick-elements/elements.page';
+@import '../vendor/chopstick-elements/elements.typography';
+@import '../vendor/chopstick-elements/elements.images';
+@import '../vendor/chopstick-elements/elements.forms';
+@import '../vendor/chopstick-elements/elements.tables';
+
+/* Objects */
+@import '../vendor/chopstick-objects/objects.grid';
+@import '../vendor/chopstick-objects/objects.flexbox';
+@import '../vendor/chopstick-objects/objects.media';
+@import '../vendor/chopstick-objects/objects.media-embed';
+@import '../vendor/chopstick-objects/objects.list';
+@import '../vendor/chopstick-objects/objects.tables';
+
+/* Components */
+@import 'components.blank'; // Blank component example
+
+/* Plugins */
+@import 'plugins.blank';  // Blank component example
+
+/* Utilities */
+@import '../vendor/chopstick-utilities/utilities.widths';
+@import '../vendor/chopstick-utilities/utilities.push';
+@import '../vendor/chopstick-utilities/utilities.pull';
+@import '../vendor/chopstick-utilities/utilities.align';
+@import '../vendor/chopstick-utilities/utilities.spacing';
+@import '../vendor/chopstick-utilities/utilities.colors';
+@import '../vendor/chopstick-utilities/utilities.layers';
+@import '../vendor/chopstick-utilities/utilities.states';
+@import '../vendor/chopstick-utilities/utilities.print';
+@import '../vendor/chopstick-utilities/utilities.debug';
+
+@import 'shame';
