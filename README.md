@@ -57,7 +57,6 @@ Chopstick is a framework based on the [ITCSS](http://itcss.io/) architecture and
 - Enforce a global coding style
 - Create a scalable system for both small and big web projects
 
-
 ## Chopstick principles
 Chopstick is built upon the following principles. Please keep these in mind when contributing and/or using this framework.
 
@@ -78,8 +77,14 @@ Avoid reliance on other bits.
 - The Principle of Least Surprise: make sure expectations are met, and nothing else
 - Murphy’s Law: Pick the option that is the most resilient, even if it is the most boring one
 
+## Credits
 
-## What’s in a name
-The origin of the Chopstick name:
-- Chopstick originated as front-end companion of Fork CMS. Both are developed and maintained by [Wijs](https://wijs.be/en)
-- Inspired by the Karate Kid movies, Chopstick is a deadly and precise [fly squating tool](https://www.youtube.com/watch?v=J1gAHil89Z4).
+You are free to contribute to Chopstick via GitHub Pull Requests. We have a couple of simple guidelines we try to follow, of which most are taken from the [CSS Tricks Sass Style Guide](http://css-tricks.com/sass-style-guide). Please refer to the [CONTRIBUTING.md](https://github.com/getchopstick/chopstick-boilerplate/blob/master/CONTRIBUTING.md) for more information
+
+We owe a ton of credits to the following projects for inspiration:
+
+* [ITCSS](http://itcss.io/)
+* [SMACSS](https://smacss.com/)
+* [OOCSS](http://oocss.org/)
+* [HTML5 Boilerplate](https://html5boilerplate.com/)
+* [Inuit CSS](http://inuitcss.com/), [Foundation](http://foundation.zurb.com/) and [Bootstrap](http://getbootstrap.com/)
