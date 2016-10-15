@@ -14,9 +14,12 @@
  *  Components: contains designed components, chunks of UI
  *  Plugins: contains third-party plugin styles
  *  Utilities: contains helpers and overrides
+ *  Shame: nasty, hacky, quick-fix CSS
  */
 
+// scss-lint:disable StringQuotes
 @charset "utf-8";
+// scss-lint:enable StringQuotes
 
 // Settings
 @import 'settings.colors';
@@ -66,4 +69,5 @@
 @import 'utilities.print';
 @import 'utilities.debug';
 
+/* Nasty, hacky, quick-fix CSS: http://csswizardry.com/2013/04/shame-css/ */
 @import 'shame';
