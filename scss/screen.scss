@@ -41,12 +41,12 @@
 @import 'elements.tables';
 
 /* Objects */
-@import '../vendor/chopstick-objects/objects.grid';
-@import '../vendor/chopstick-objects/objects.flexbox';
-@import '../vendor/chopstick-objects/objects.media';
-@import '../vendor/chopstick-objects/objects.media-embed';
-@import '../vendor/chopstick-objects/objects.list';
-@import '../vendor/chopstick-objects/objects.tables';
+@import 'objects.grid';
+@import 'objects.flexbox';
+@import 'objects.media';
+@import 'objects.media-embed';
+@import 'objects.list';
+@import 'objects.tables';
 
 /* Components */
 @import 'components.blank'; // Blank component example
