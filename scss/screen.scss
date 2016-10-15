@@ -23,10 +23,10 @@
 @import 'settings.global';
 
 // Tools
-@import '../vendor/chopstick-tools/tools.functions';
-@import '../vendor/chopstick-tools/tools.mixins';
-@import '../vendor/chopstick-tools/tools.spacing';
-@import '../vendor/chopstick-tools/tools.typography';
+@import 'tools.functions';
+@import 'tools.mixins';
+@import 'tools.spacing';
+@import 'tools.typography';
 
 /* Generic */
 @import 'generic.normalize';
