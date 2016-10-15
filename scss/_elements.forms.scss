@@ -4,31 +4,6 @@
     Default markup for the form elements
 */
 
-// ---
-// Variables
-// ---
-
-$fieldset-border          : 0 !default;
-$fieldset-margin-bottom   : $alpha-leading !default;
-
-$legend-font-size         : $alpha-font-size !default;
-$legend-line-height       : $alpha-line-height !default;
-$legend-margin-bottom     : $alpha-leading !default;
-
-$label-font-size          : $alpha-font-size !default;
-$label-line-height        : $alpha-line-height !default;
-$label-margin-bottom      : $alpha-leading !default;
-
-$placeholder-font-family  : $alpha-font-family !default;
-$placeholder-font-style   : italic !default;
-$placeholder-color        : palette(color-neutral, light) !default;
-
-$firefox-inner-border-fix : true !default;
-
-// ---
-// Styles
-// ---
-
 fieldset {
     border: $fieldset-border;
     @include margin-bottom($fieldset-margin-bottom);

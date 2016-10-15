@@ -4,18 +4,6 @@
     Grid system objects, works together with utility width classes
 */
 
-
-// ---
-// Variables
-// ---
-
-$grid-max-width : map-get($breakpoints,bp5) !default;
-$grid-gutter    : $columns-gutter !default;
-
-// ---
-// Styles
-// ---
-
 .o-container {
     margin-left: auto;
     margin-right: auto;

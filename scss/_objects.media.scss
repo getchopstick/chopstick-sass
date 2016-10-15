@@ -17,18 +17,6 @@
     </article>
 */
 
-
-// ---
-// Variables
-// ---
-
-$media-object-gutter        : $columns-gutter !default;
-$media-object-margin-bottom : $alpha-leading !default;
-
-// ---
-// Styles
-// ---
-
 .o-media {
     @include clearfix;
 }

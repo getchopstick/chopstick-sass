@@ -4,16 +4,6 @@
     Responsive media embedding object, for use with iframes
 */
 
-// ---
-// Variables
-// ---
-$media-embed-ratio         : 62.5% !default;
-$media-embed-margin-bottom : $alpha-leading !default;
-
-// ---
-// Styles
-// ---
-
 .o-media-embed {
     width: 100%;
     height: 0;

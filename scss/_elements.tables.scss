@@ -4,23 +4,6 @@
     Default markup for tables
 */
 
-// ---
-// Variables
-// ---
-
-$table-font-family      : $alpha-font-family !default;
-$table-align            : left !default;
-
-$caption-font-family    : $alpha-font-family !default;
-$caption-font-weight    : $beta-font-weight;
-$caption-align          : center !default;
-$caption-margin-bottom  : $alpha-leading !default;
-$caption-padding-bottom : $alpha-leading !default;
-
-// ---
-// Styles
-// ---
-
 table {
     text-align: $table-align;
     width: 100%;
