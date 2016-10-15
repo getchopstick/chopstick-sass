@@ -29,9 +29,9 @@
 @import '../vendor/chopstick-tools/tools.typography';
 
 /* Generic */
-@import '../vendor/chopstick-generic/generic.normalize';
-@import '../vendor/chopstick-generic/generic.reset';
-@import '../vendor/chopstick-generic/generic.box-sizing';
+@import 'generic.normalize';
+@import 'generic.reset';
+@import 'generic.box-sizing';
 
 /* Elements */
 @import 'elements.page';
