@@ -1,10 +1,9 @@
 Chopstick Design Framework
 ==========================
 
-Chopstick is a mobile-first responsive Design framework.
+Chopstick is a mobile-first responsive design framework.
 
 It uses the following tools
-- [Bower](http://bower.io/) as a dependency manager
 - [Sass](http://sass-lang.com/) as a scss preprocessor
 
 ## Need  help?
@@ -14,12 +13,6 @@ It uses the following tools
 ## Setup and usage
 
 ### Install
-
-Install [bower](http://bower.io) and the necessary JavaScript dependencies:
-
-    npm install -g bower
-    bower install
-
 Use your prefered workflow to compile the `.scss`.
 
 ### Framework
