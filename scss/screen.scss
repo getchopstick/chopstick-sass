@@ -34,11 +34,11 @@
 @import '../vendor/chopstick-generic/generic.box-sizing';
 
 /* Elements */
-@import '../vendor/chopstick-elements/elements.page';
-@import '../vendor/chopstick-elements/elements.typography';
-@import '../vendor/chopstick-elements/elements.images';
-@import '../vendor/chopstick-elements/elements.forms';
-@import '../vendor/chopstick-elements/elements.tables';
+@import 'elements.page';
+@import 'elements.typography';
+@import 'elements.images';
+@import 'elements.forms';
+@import 'elements.tables';
 
 /* Objects */
 @import '../vendor/chopstick-objects/objects.grid';
