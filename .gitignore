@@ -1,7 +1,5 @@
 .sass-cache
 .DS_Store
 css/
-vendor/
-bower_components/
 node_modules/
 npm-debug.log

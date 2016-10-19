@@ -1,10 +1,9 @@
 Chopstick Design Framework
 ==========================
 
-Chopstick is a mobile-first responsive Design framework.
+Chopstick is a mobile-first responsive design framework.
 
 It uses the following tools
-- [Bower](http://bower.io/) as a dependency manager
 - [Sass](http://sass-lang.com/) as a scss preprocessor
 
 ## Need  help?
@@ -14,12 +13,6 @@ It uses the following tools
 ## Setup and usage
 
 ### Install
-
-Install [bower](http://bower.io) and the necessary JavaScript dependencies:
-
-    npm install -g bower
-    bower install
-
 Use your prefered workflow to compile the `.scss`.
 
 ### Framework
@@ -29,19 +22,21 @@ Use your prefered workflow to compile the `.scss`.
 The Chopstick Scss is maintained in separate repositories which are loaded with [Bower](http://bower.io/). We believe these partials should be easy to update and configurable without writing new code.
 
 #### Partials
-We use the following partials according to the [ITCss](http://itcss.io/) structure.
-1. [chopstick-settings](https://github.com/getchopstick/chopstick-settings): contains global variables and config switches to get you started. These can be overwritten in your project. Simply duplicate the variables you want to change or replace this file.
-2. [chopstick-tools](https://github.com/getchopstick/chopstick-tools):  contains mixins and functions.
-3. [chopstick-generic](https://github.com/getchopstick/chopstick-generic): contains ground-zero styles (Normalize.css, resets, box-sizing)
-4. [chopstick-elements](https://github.com/getchopstick/chopstick-elements): contains unclassed HTML elements (type selectors)
-5. [chopstick-objects](https://github.com/getchopstick/chopstick-objects): contains cosmetic-free design patterns
-6. chopstick-components: contains designed components, chunks of UI (these are maintained in the boilerplate as they are specific to this)
-6. [chopstick-utilities](https://github.com/getchopstick/chopstick-utilities): contains helper classes
+We use the following layers according to the [ITCSS](http://itcss.io/) structure.
+1. Settings: contains global variables and config switches to get you started. These can be overwritten in your project. Simply duplicate the variables you want to change or replace this file.
+2. Tools: contains mixins and functions.
+3. Generic: contains ground-zero styles (Normalize.css, resets, box-sizing)
+4. Elements: contains unclassed HTML elements (type selectors)
+5. Objects: contains cosmetic-free design patterns
+6. Components: contains designed components, chunks of UI (these are maintained in the boilerplate as they are specific to this)
+7. Plugins: contains third-party plugin styles
+8. Utilities: contains helper classes
+9. Shame: nasty, hacky, quick-fix CSS
 
 #### Usage
 We try to keep the code as modular as possible. So you can comment out what you don’t use.
 
-If you want to change something within the external partials you have 3 options:
+If you want to change something you have 3 options:
 1. Change the settings and default appearance by overriding the variables in your project.
 2. Create a pull request on the source code in the correct repository.
 3. Copy the original file in you own project. This means you will have to do manual updates in the future.

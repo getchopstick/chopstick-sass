@@ -1,0 +1,37 @@
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+    font: $html-font-weight #{$html-font-size/16*100%}/#{$html-line-height} $html-font-family;
+    -webkit-overflow-scrolling: touch;
+    background-color: $html-background-color;
+
+    @if $html-responsive-font-size == true {
+        @include mq($html-responsive-font-breakpoint) {
+            font-size: $alpha-font-size/16*$html-responsive-font-magnification;
+        }
+    }
+}
+
+body {
+    color: $body-color;
+
+    @if $body-font-smoothing == true {
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+::-moz-selection {
+    background-color: $body-selection-background-color;
+    color: $body-selection-color;
+    text-shadow: $body-selection-text-shadow;
+}
+
+::selection {
+    background-color: $body-selection-background-color;
+    color: $body-selection-color;
+    text-shadow: $body-selection-text-shadow;
+}

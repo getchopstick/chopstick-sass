@@ -1,0 +1,21 @@
+/*
+    Elements: Tables
+    ---
+    Default markup for tables
+*/
+
+table {
+    text-align: $table-align;
+    width: 100%;
+    font-family: $table-font-family;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+caption {
+    font-family: $alpha-font-family;
+    font-weight: $beta-font-weight;
+    text-align: $caption-align;
+    @include padding-bottom($caption-margin-bottom);
+    @include margin-bottom($caption-padding-bottom);
+}

@@ -1,0 +1,36 @@
+
+/*
+    Utilities: Align
+    ---
+    Utility classes for aligning elements and text
+*/
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-text-left {
+    text-align: left;
+}
+
+.u-text-right {
+    text-align: right;
+}
+
+.u-float-left {
+    float: left;
+}
+
+.u-float-right {
+    float: right;
+}
+
+.u-align-vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.u-align-horizontal {
+    margin: 0 auto;
+}

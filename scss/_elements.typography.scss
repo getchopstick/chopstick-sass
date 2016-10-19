@@ -1,0 +1,124 @@
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {
+    font-family: $h1-font-family;
+    font-weight: $h1-font-weight;
+    @include text-dimensions($h1-font-size,$h1-line-height);
+    @include margin-bottom($h1-margin-bottom);
+}
+
+h2 {
+    font-family: $h2-font-family;
+    font-weight: $h2-font-weight;
+    @include text-dimensions($h2-font-size,$h2-line-height);
+    @include margin-bottom($h2-margin-bottom);
+}
+
+h3 {
+    font-family: $h3-font-family;
+    font-weight: $h3-font-weight;
+    @include text-dimensions($h3-font-size,$h3-line-height);
+    @include margin-bottom($h3-margin-bottom);
+}
+
+h4 {
+    font-family: $h4-font-family;
+    font-weight: $h4-font-weight;
+    @include text-dimensions($h4-font-size,$h4-line-height);
+    @include margin-bottom($h4-margin-bottom);
+}
+
+h5 {
+    font-family: $h5-font-family;
+    font-weight: $h5-font-weight;
+    @include text-dimensions($h5-font-size,$h5-line-height);
+    @include margin-bottom($h5-margin-bottom);
+}
+
+h6 {
+    font-family: $h6-font-family;
+    font-weight: $h6-font-weight;
+    @include text-dimensions($h6-font-size,$h6-line-height);
+    @include margin-bottom($h6-margin-bottom);
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address {
+    @include text-dimensions($base-font-size,$base-line-height);
+    @include margin-bottom($base-margin-bottom);
+}
+
+pre {
+    tab-size: $base-indent;
+}
+
+ul,
+ol,
+blockquote {
+    padding-left: #{$base-indent}em;
+}
+
+li {
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
+}
+
+blockquote {
+    font-style: $blockquote-font-style;
+    @include text-dimensions($blockquote-font-size,$blockquote-line-height);
+    @include margin-bottom($blockquote-margin-bottom);
+    > p {
+        font-size: inherit;
+        line-height: inherit;
+    }
+}
+
+small {
+    @include text-dimensions($small-font-size,$small-line-height);
+    @include margin-bottom($small-margin-bottom);
+}
+
+hr {
+    border-width: $horizontal-rule-border-width;
+    border-style: $horizontal-rule-border-style;
+    border-color: $horizontal-rule-border-color;
+    clear: both;
+    @include margin-tb($horizontal-rule-margin-top,$horizontal-rule-margin-bottom);
+}
+
+// Links
+
+a {
+    text-decoration: $link-decoration;
+    color: $link-color;
+    transition: $link-transition;
+
+    &:visited {
+        color: $link-color--visited;
+    }
+
+    &:hover {
+        text-decoration: $link-decoration--hover;
+        color: $link-color--hover;
+    }
+
+    &:focus {
+        outline: $link-outline--focus;
+        color: $link-color--focus;
+    }
+
+    &:hover,
+    &:active {
+        outline: $link-outline;
+    }
+}

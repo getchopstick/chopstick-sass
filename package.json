@@ -1,0 +1,27 @@
+{
+  "name": "chopstick-sass",
+  "description": "The Chopstick Sass framework",
+  "keywords": [
+    "front-end",
+    "utilities",
+    "css",
+    "scss",
+    "sass",
+    "framework",
+    "ITCSS"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Chopstick",
+    "url": "https://github.com/orgs/getchopstick/people"
+  },
+  "homepage": "http://getchopstick.com/",
+  "bugs": {
+    "url": "https://github.com/getchopstick/chopstick-sass/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:getchopstick/chopstick-sass.git"
+  }
+}

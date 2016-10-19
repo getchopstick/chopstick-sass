@@ -1,0 +1,54 @@
+/*
+    Elements: Forms
+    ---
+    Default markup for the form elements
+*/
+
+fieldset {
+    border: $fieldset-border;
+    @include margin-bottom($fieldset-margin-bottom);
+}
+
+legend,
+label {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+legend {
+    @include text-dimensions($legend-font-size,$legend-line-height);
+    @include margin-bottom($legend-margin-bottom);
+}
+
+label {
+    @include text-dimensions($label-font-size,$label-line-height);
+    @include margin-bottom($label-margin-bottom);
+}
+
+textarea {
+    height: auto;
+    resize: none;
+}
+
+// Placeholders
+
+[placeholder],
+:-ms-input-placeholder,
+::-moz-placeholder,
+::-webkit-input-placeholder {
+    font-family: $placeholder-font-family;
+    font-style: $placeholder-font-style;
+    color: $placeholder-color;
+    text-overflow: ellipsis;
+}
+
+// Firefox inner border fix
+@if $firefox-inner-border-fix == true {
+    button::-moz-focus-inner,
+    input[type="button"]::-moz-focus-inner,
+    input[type="submit"]::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+}
