@@ -18,10 +18,6 @@ Use your prefered workflow to compile the `.scss`.
 ### Framework
 
 ### `.scss` structure.
-
-The Chopstick Scss is maintained in separate repositories which are loaded with [Bower](http://bower.io/). We believe these partials should be easy to update and configurable without writing new code.
-
-#### Partials
 We use the following layers according to the [ITCSS](http://itcss.io/) structure.
 1. Settings: contains global variables and config switches to get you started. These can be overwritten in your project. Simply duplicate the variables you want to change or replace this file.
 2. Tools: contains mixins and functions.
