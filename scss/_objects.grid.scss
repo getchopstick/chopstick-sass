@@ -5,19 +5,6 @@
 */
 
 
-// ---
-// Variables
-// ---
-
-$grid-max-width : map-get($breakpoints,bp5) !default;
-$grid-gutter    : $columns-gutter !default;
-
-
-// ---
-// Styles
-// ---
-
-
 // Max width container
 .o-container {
     margin-left: auto;
